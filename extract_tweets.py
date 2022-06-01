@@ -11,10 +11,10 @@ from nltk import FreqDist, classify, NaiveBayesClassifier
 import re, string, random
  
 #for counter in range(2):
-CONSUMER_KEY='8V4toASRqwVLXtP7yp1pKJICv'
-CONSUMER_SECRET='TDEVVQ5LBgXGzwXZKne2OAgNapIAeBSCREhLyDwvfZs8RaAO4D'
-ACCESS_KEY='1312978936037552128-NZ0WXcyfuNzJ98AbxLkuts5TVklx9h'
-ACCESS_SECRET='qJZ53s1rx6n0UUmIkjxuyXWKigF237qLCxLdPGONOjkcx'
+CONSUMER_KEY='****'
+CONSUMER_SECRET='****'
+ACCESS_KEY='****'
+ACCESS_SECRET='****'
 auth=tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
 auth.secure=True
